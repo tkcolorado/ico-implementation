@@ -9,9 +9,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "tkcolorado",
   "license": "ISC",
-"devDependencies": {
-  "truffle-hdwallet-provider":"0.0.5"
+  "devDependencies": {
+    "truffle-hdwallet-provider": "0.0.5"
+  },
+  "dependencies": {
+    "openzeppelin-solidity": "^1.12.0"
   }
 }
