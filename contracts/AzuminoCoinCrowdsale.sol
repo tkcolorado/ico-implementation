@@ -1,8 +1,8 @@
-pragma solidity 0.4.24;
+pragma solidity ^0.4.24;
 
-import './AzuminoCoin.sol';
-import 'github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/crowdsale/emission/MintedCrowdsale.sol';
-import 'openzeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol';
+import "./AzuminoCoin.sol";
+import "github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/crowdsale/emission/MintedCrowdsale.sol";
+import "github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/crowdsale/validation/TimedCrowdsale.sol";
 
 contract AzuminoCoinCrowdsale is TimedCrowdsale, MintedCrowdsale {
   function AzuminoCoinCrowdsale
