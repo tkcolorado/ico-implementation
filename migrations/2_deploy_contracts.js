@@ -18,7 +18,7 @@ module.exports = function(deployer, network, accounts) {
                 closingTime,
                 rate,
                 wallet,
-                GustavoCoin.address
+                AzuminoCoin.address
             );
         });
 };
