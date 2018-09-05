@@ -1,11 +1,11 @@
 pragma solidity ^0.4.24;
 
 import "./AzuminoCoin.sol";
-import "github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/crowdsale/emission/MintedCrowdsale.sol";
-import "github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/crowdsale/validation/TimedCrowdsale.sol";
+import "../node_modules/openzeppelin-solidity/contracts/crowdsale/emission/MintedCrowdsale.sol";
+import "../node_modules/openzeppelin-solidity/contracts/crowdsale/validation/TimedCrowdsale.sol";
 
 contract AzuminoCoinCrowdsale is TimedCrowdsale, MintedCrowdsale {
-  function AzuminoCoinCrowdsale
+  constructor
     (
       uint256 _openingTime,
       uint256 _closingTime,
@@ -16,6 +16,6 @@ contract AzuminoCoinCrowdsale is TimedCrowdsale, MintedCrowdsale {
     public
     Crowdsale(_rate, _wallet, _token)
     TimedCrowdsale(_openingTime, _closingTime) {
-      
+
     }
 }
