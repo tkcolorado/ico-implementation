@@ -1,7 +1,6 @@
 {
   "name": "ico-implementation",
   "version": "1.0.0",
-  "description": "",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -11,10 +10,8 @@
   },
   "author": "tkcolorado",
   "license": "ISC",
-  "devDependencies": {
-    "truffle-hdwallet-provider": "0.0.5"
-  },
   "dependencies": {
-    "openzeppelin-solidity": "^1.12.0"
+    "openzeppelin-solidity": "1.12.0",
+    "truffle-hdwallet-provider": "0.0.5"
   }
 }
